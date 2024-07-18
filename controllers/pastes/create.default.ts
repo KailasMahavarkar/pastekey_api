@@ -40,11 +40,11 @@ const createPaste = async (req, res) => {
 			privacy: body.privacy,
 			owner: req.locals.owner,
 			category: "general",
-			maxviews: body.maxviews,
+			maxViews: body.maxViews,
 			note: body.note || "add note",
 
 			// settings
-			adtype: "medium",
+			adType: "medium",
 			expiry: "5 years",
 			status: "active",
 

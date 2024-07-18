@@ -32,8 +32,8 @@ export const PASTE = {
 	PRIVACY_REQUIRED: "Paste privacy is required",
 	CATEGORY_REQUIRED: "Paste category is required",
 	EXPIRY_REQUIRED: "Paste expiry is required",
-	MAXVIEWS_REQUIRED: "Paste maxviews is required",
-	ADTYPE_REQUIRED: "Paste adtype is required",
+	MAXVIEWS_REQUIRED: "Paste maxViews is required",
+	ADTYPE_REQUIRED: "Paste adType is required",
 	MASTERKEY_REQUIRED: "Paste masterkey is required",
 	MASTERKEY_CHECK: "Paste masterkey is invalid or empty",
 
@@ -52,8 +52,8 @@ export const PASTE = {
 	PRIVACY_TYPE: "Paste privacy is invalid type",
 	CATEGORY_TYPE: "Paste category is invalid type",
 	EXPIRY_TYPE: "Paste expiry is invalid type",
-	MAXVIEWS_TYPE: "Paste maxviews is invalid type",
-	ADTYPE_TYPE: "Paste adtype is invalid type",
+	MAXVIEWS_TYPE: "Paste maxViews is invalid type",
+	ADTYPE_TYPE: "Paste adType is invalid type",
 	MASTERKEY_TYPE: "Paste masterkey is invalid type",
 
 	// paste type undefined
@@ -63,8 +63,8 @@ export const PASTE = {
 	PRIVACY_UNDEFINED: "Paste privacy is undefined",
 	CATEGORY_UNDEFINED: "Paste category is undefined",
 	EXPIRY_UNDEFINED: "Paste expiry is undefined",
-	MAXVIEWS_UNDEFINED: "Paste maxviews is undefined",
-	ADTYPE_UNDEFINED: "Paste adtype is undefined",
+	MAXVIEWS_UNDEFINED: "Paste maxViews is undefined",
+	ADTYPE_UNDEFINED: "Paste adType is undefined",
 	MASTERKEY_UNDEFINED: "Paste masterkey is undefined",
     EXPIRY_RECENTLY_UPDATED: "Paste expiry recently updated",
 

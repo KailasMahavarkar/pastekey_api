@@ -22,11 +22,11 @@ interface basePasteSchema {
 	title: string;
 	note: string;
 	data: string[];
-	maxviews: number;
+	maxViews: number;
 	eseed: string;
 	vseed: string;
 	tag: string;
-	adtype: adType;
+	adType: adType;
 	expiry: timeSpanType;
 	options: any;
     language: programmingLanguagesType
@@ -62,7 +62,7 @@ const baseCreateProps = {
 		maxLength: 500,
 	},
 	category: { type: "string", enum: categoryArray },
-	maxviews: { type: "number" },
+	maxViews: { type: "number" },
 	expiry: {
 		type: "string",
 		enum: timeArray,
@@ -70,7 +70,7 @@ const baseCreateProps = {
 	data: {
 		type: "array",
 	},
-	adtype: { type: "string", enum: adTypeArray },
+	adType: { type: "string", enum: adTypeArray },
     language: { type: "string", enum: programmingLanguagesArray},
 };
 
@@ -120,7 +120,7 @@ interface baseUpdateInterface {
 		vct: string;
 		password: string;
 		// extra
-		adtype: adType;
+		adType: adType;
 
         // language
         language: programmingLanguagesType
@@ -153,7 +153,7 @@ const updateSchema: JSONSchemaType<baseUpdateInterface> = {
 				password: { type: "string" },
 
 				// extra
-				adtype: { type: "string", enum: adTypeArray },
+				adType: { type: "string", enum: adTypeArray },
 
                 // language
                 language: { type: "string", enum:  programmingLanguagesArray},

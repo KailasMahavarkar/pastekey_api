@@ -47,7 +47,7 @@ const pasteSchema = createSchema(
         category: Type.string({ enum: categoryArray }),
         data: Type.array({ required: true, default: [] }).of(Type.string()),
         size: Type.number({ required: true, default: 0 }),
-        maxviews: Type.number({ required: false, default: 100000000 }),
+        maxViews: Type.number({ required: false, default: 1000000000 }),
         note: Type.string({ required: true, default: "add note" }),
 
         // security
@@ -60,7 +60,7 @@ const pasteSchema = createSchema(
         language: Type.string({ required: false, enum: programmingLanguagesArray, default: "text" }),
 
         // settings
-        adtype: Type.string({
+        adType: Type.string({
             required: false,
             enum: adTypeArray,
             default: "medium",

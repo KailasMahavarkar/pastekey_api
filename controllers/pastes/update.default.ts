@@ -135,8 +135,8 @@ const PasteUpdate = async (req, res) => {
             // update paste data
             paste.data = (body.updateProps?.data || paste.data) as any;
 
-            // update paste adtype
-            paste.adtype = (body.updateProps?.adtype || "medium") as any;
+            // update paste adType
+            paste.adType = (body.updateProps?.adType || "medium") as any;
 
             // update paste vct
             paste.vct = body.updateProps?.vct || paste.vct;
