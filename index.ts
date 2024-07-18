@@ -2,8 +2,7 @@ import env from "@/env";
 import mongoose from "mongoose";
 import express from "express";
 import SHA512 from "crypto-js/sha512";
-import { withMode, withModeDB } from "@/helper";
-// import CounterModel from "@/models/counter.model";
+import { withModeDB } from "@/helper";
 import cors from "cors";
 
 import _authAPI, { _authAPILoose } from "@/middlewares/_authAPI";
@@ -70,10 +69,6 @@ app.post("/paste", _authAPILoose, createPaste);
 app.get("/paste", _authAPILoose, readPaste);
 app.patch("/paste", _authAPILoose, updatePaste);
 app.delete("/paste", _authAPILoose, deletePaste);
-
-
-// dashboard
-// app.patch('/dashboard/profile', _authAPI, updateProfile);
 
 app.get("/paste/tagcheck", async (req, res) => {
     const tag = req.query.tag as string;
