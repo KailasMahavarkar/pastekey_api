@@ -5,7 +5,7 @@ PasteKey is a secure and private paste service that allows you to store and shar
 
 
 ## License
-Read The License [Here](https://github.com/KailasMahavarkar/pastekey_ui/blob/main/LICENSE)
+Read The License [Here](https://github.com/KailasMahavarkar/pastekey_api/blob/main/LICENSE)
 
 We are using the MIT license with Commons Clause Restriction, meaning you can use this project for free, but you can't sell it or use it commercially.
 
@@ -22,7 +22,7 @@ We are using the MIT license with Commons Clause Restriction, meaning you can us
 1. Clone the repository
     
     ```bash
-    https://github.com/KailasMahavarkar/pastekey_ui.git
+    https://github.com/KailasMahavarkar/pastekey_api.git
     ```
 
 2. Install dependencies
